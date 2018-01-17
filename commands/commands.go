@@ -75,7 +75,3 @@ func mergeDuplicateHistoryData(contents []byte) (result []byte, err error) {
 	result = buffer.Bytes()
 	return
 }
-
-func init() {
-	RootCmd.AddCommand(versionCmd)
-}
