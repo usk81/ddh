@@ -1,6 +1,14 @@
 # ddh
 Deletes duplicates in .bash_history
 
+## Recommends
+
+If you don't save duplicates in .bash_history
+
+```bash
+export HISTCONTROL=ignoredups
+```
+
 ## Installation
 
 ```
